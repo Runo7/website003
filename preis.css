@@ -1,0 +1,120 @@
+/* CSS-Styling für die Navbar, das Logo, das Bild, den Text und die Fußzeile */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 19px;
+ font-weight: bold;
+}
+
+.navbar {
+ background-color: #ffffff;
+ overflow: hidden;
+}
+
+.navbar a {
+ float: right;
+ display: block;
+ color: #333;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navbar a:hover {
+ background-color: #ddd;
+}
+
+.logo {
+ float: left;
+ padding: 14px 16px;
+}
+
+.image {
+ float: left;
+ margin-right: 20px;
+}
+
+.imgUnderLogo {
+ width: 20rem;
+ height: 20rem;
+}
+
+.text {
+    float: right;
+    width: 40rem;
+    height: 20rem;
+    padding-right: 6rem;
+    padding-top: 4rem;
+    margin-bottom: 23rem;
+   }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 35rem;
+  }
+
+  th, td {
+    padding: 8px;
+    border: 1px solid black;
+  }
+
+  th {
+    background-color: #f1f1f1;
+  }
+
+
+/* CSS-Styling für die Fußzeile */
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+   }
+   
+   .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+   }
+
+
+@media only screen and (max-width: 768px) {
+    .navbar a {
+      float: none;
+    }
+  
+    .logo {
+      float: none;
+      text-align: center;
+    }
+  
+    .image {
+      float: none;
+      margin-right: 0;
+    }
+  
+    .text {
+      float: none;
+      width: 100%;
+      max-width: none;
+      padding-right: 0;
+      padding-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .slider {
+      height: auto;
+      padding-top: 10px;
+    }
+  
+    .slider img {
+      position: static;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: none;
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,86 @@
+/* CSS-Styling für die Navbar, das Logo, das Bild, den Text und die Fußzeile */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 19px;
+ font-weight: bold;
+}
+
+.navbar {
+ background-color: #ffffff;
+ overflow: hidden;
+}
+
+.navbar a {
+ float: right;
+ display: block;
+ color: #333;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navbar a:hover {
+ background-color: #ddd;
+}
+
+.logo {
+ float: left;
+ padding: 14px 16px;
+}
+
+.image {
+ float: left;
+ margin-right: 20px;
+}
+
+.imgUnderLogo {
+ width: 20rem;
+ height: 20rem;
+}
+
+.text {
+ float: right;
+ width: 40rem;
+ height: 20rem;
+ padding-right: 6rem;
+ padding-top: 4rem;
+ margin-bottom: 23rem;
+}
+
+.slider {
+ position: relative;
+ width: 100%;
+ height: 1200px;
+ overflow: hidden;
+ margin-bottom: 30rem;
+}
+
+.slider img {
+ position: absolute;
+ top: 15rem;
+ left: 100%;
+ width: 60rem;
+ height: 60rem;
+ object-fit: cover;
+ transition: left 1.5s;
+}
+
+.slider img.active {
+ left: 0;
+}
+
+
+/* CSS-Styling für die Fußzeile */
+.footer {
+ background-color: #f1f1f1;
+ padding: 20px;
+ text-align: center;
+}
+
+.footer a {
+ margin: 0 10px;
+ text-decoration: none;
+ color: #333;
+}

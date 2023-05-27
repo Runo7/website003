@@ -1,0 +1,82 @@
+/* CSS-Styling für die Navbar, das Logo, das Bild, den Text und die Fußzeile */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 19px;
+ font-weight: bold;
+}
+
+.navbar {
+ background-color: #ffffff;
+ overflow: hidden;
+}
+
+.navbar a {
+ float: right;
+ display: block;
+ color: #333;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navbar a:hover {
+ background-color: #ddd;
+}
+
+.logo {
+ float: left;
+ padding: 14px 16px;
+}
+
+.image {
+ float: left;
+ margin-right: 20px;
+}
+
+.imgUnderLogo {
+ width: 20rem;
+ height: 20rem;
+}
+
+.content {
+    margin-bottom: 30rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    margin-bottom: 5px;
+  }
+/* CSS-Styling für die Fußzeile */
+.footer {
+ background-color: #f1f1f1;
+ padding: 20px;
+ text-align: center;
+}
+
+.footer a {
+ margin: 0 10px;
+ text-decoration: none;
+ color: #333;
+}
+
